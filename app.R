@@ -1,3 +1,11 @@
+# ------------------------------------------------------------------------------
+
+## Forecaster: Time Series Forecasting App
+
+# ------------------------------------------------------------------------------
+
+# libraries
+
 library(shiny)
 library(shinythemes)
 library(forecast)
@@ -5,7 +13,9 @@ library(ggplot2)
 library(vars)
 library(tseries)  
 library(urca)     
-library(tsDyn)  
+library(tsDyn)
+
+# ------------------------------------------------------------------------------
 
 # UI 
 ui <- fluidPage(
@@ -58,6 +68,8 @@ ui <- fluidPage(
     )
   )
 )
+
+# ------------------------------------------------------------------------------
 
 # Server logic
 server <- function(input, output, session) {
@@ -277,13 +289,14 @@ server <- function(input, output, session) {
   # Task completed note
   output$completionNote <- renderText({
     req(input$analyze)
-    "ANALYSIS COMPLETED"
+    "ANALYSIS IS COMPLETED"
   })
 }
+
+# ------------------------------------------------------------------------------
 
 # Run the Shiny app
 shinyApp(ui = ui, server = server)
 
-
-
+# ------------------------------------------------------------------------------
 
