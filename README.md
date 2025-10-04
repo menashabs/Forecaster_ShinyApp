@@ -1,7 +1,7 @@
 # Forecaster_ShinyApp
 A shiny app to input a univariate or multivariate dataset and obtain a time series model with forecasts.
 
-#### Forecaster: Time Series Forecasting App: [Link](https://menashasenanayaka.shinyapps.io/forecaster_shinyapp/)
+## Forecaster: Time Series Forecasting App: [Link](https://menashasenanayaka.shinyapps.io/forecaster_shinyapp/)
 
 It is important to note that: 
 
