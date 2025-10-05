@@ -13,6 +13,7 @@ It is important to note that:
 
 Limitations:
 
+* The app is limited to uploading csv files only.
 * The shiny app might not work with all the dataset and the use will be limited.
 * This shiny app is not addressing the situation where there is a seasonal effect.
 
